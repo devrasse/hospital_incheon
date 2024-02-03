@@ -12,5 +12,5 @@ with st.container(border=True,height=740):
     st.components.v1.html(html_code,  height=700, scrolling=False)
 
 #st.write("참고: 정확한 진료 확인은 방문전 연락하여 확인하여 주시기 바랍니다.")
-styled_text = '<p style="font-size: 20px; color: white;">참고: 정확한 진료 확인은 방문전 연락하여 확인하여 주시기 바랍니다.</p>'
+styled_text = '<p style="font-size: 20px; color: white;">참고: 정확한 진료 확인은 해당 병원에 문의하여 주시기 바랍니다.</p>'
 st.write(styled_text, unsafe_allow_html=True)
